@@ -12,5 +12,11 @@ jobs:
       
       - name: Print my name
         run: echo "My name is Vishesh Goel"
-    
+
+  say-bye:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print goodbye message
+        run: echo "Goodbye from second job!"  
     
